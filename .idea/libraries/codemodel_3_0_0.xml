@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="codemodel-3.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../XMLDep/codemodel-3.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../XMLDep/dtd-parser-1.4.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../XMLDep/istack-commons-runtime-4.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../XMLDep/istack-commons-tools-4.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../XMLDep/jakarta.activation-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../XMLDep/jakarta.xml.bind-api-3.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../XMLDep/javax.activation-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../XMLDep/javax.activation-api-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../XMLDep/jaxb-api-2.4.0-b180830.0359.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../XMLDep/jaxb-core-3.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../XMLDep/jaxb-jxc-3.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../XMLDep/jaxb-runtime-3.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../XMLDep/jaxb-xjc-3.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../XMLDep/relaxng-datatype-3.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../XMLDep/rngom-3.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../XMLDep/txw2-3.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../XMLDep/xsom-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../XMLDep/jaxb-xjc-3.0.0.jar!/" />
+    </SOURCES>
+  </library>
+</component>

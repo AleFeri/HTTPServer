@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80a6929d-c6ba-4bd4-b936-eefe9baceae1" name="Default Changelist" comment="" />
+    <list default="true" id="80a6929d-c6ba-4bd4-b936-eefe9baceae1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/codemodel_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_xml_bind.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/puntiVendita.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTTPServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HTTPServer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HTTPServer/JSONHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HTTPServer/JSONHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HTTPServer/PuntoVendita.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HTTPServer/PuntoVendita.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PuntoVendita.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PuntoVendita.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/XMLHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/XMLHandler.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +26,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kSXhTOhXnK3FtawWckRcOCwdlj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,9 +39,10 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../XMLMapper/woodstox-core-6.2.3.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../XMLDep/javax.xml.bind.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -37,7 +53,7 @@
       <recent name="C:\Users\Alessandro\IdeaProjects\HTTPServer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JSONHandler">
+  <component name="RunManager" selected="Application.XMLHandler">
     <configuration name="JSONHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JSONHandler" />
       <module name="HTTPServer" />
@@ -52,8 +68,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="XMLHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="XMLHandler" />
+      <module name="HTTPServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.XMLHandler" />
         <item itemvalue="Application.JSONHandler" />
         <item itemvalue="Application.JavaHTTPServer" />
       </list>
@@ -79,7 +103,10 @@
       <workItem from="1606635799570" duration="1091000" />
       <workItem from="1606637631449" duration="1774000" />
       <workItem from="1606639446952" duration="1825000" />
-      <workItem from="1606641336489" duration="325000" />
+      <workItem from="1606641336489" duration="714000" />
+      <workItem from="1606677662438" duration="1034000" />
+      <workItem from="1606681312408" duration="1775000" />
+      <workItem from="1606683217783" duration="256000" />
     </task>
     <servers />
   </component>
@@ -87,38 +114,38 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Project_Structure" timestamp="1606641279274">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1606682144944">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606641279274" />
-    <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1606640654293">
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606682144944" />
+    <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1606683394876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606640654293" />
+    <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606683394876" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605696392284">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1605696392284" />
-    <state x="666" y="261" key="FileChooserDialogImpl" timestamp="1606641271043">
+    <state x="666" y="261" key="FileChooserDialogImpl" timestamp="1606682140241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606641271043" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1606640555500">
+    <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606682140241" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1606682976610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606640555500" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1606640555500">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606682976610" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1606682976610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606640555500" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1606640555499">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606682976610" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1606682976610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606640555499" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1606640555500">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606682976610" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1606682976610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606640555500" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606682976610" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1606583268056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -139,13 +166,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606636216038" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1606641342074">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1606683219653">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606641342074" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606639269270">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606683219653" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606682940389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606639269270" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606682940389" />
   </component>
 </project>
