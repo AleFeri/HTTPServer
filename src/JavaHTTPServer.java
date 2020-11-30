@@ -103,6 +103,14 @@ public class JavaHTTPServer implements Runnable{
                 }
 
                 File file = new File(WEB_ROOT, fileRequested);
+
+                if (fileRequested.endsWith("puntiVendita.xml")) {
+                    System.out.println("Client need XML");
+                    new JSONHandler();
+                    new XMLHandler();
+                    file = new File(WEB_ROOT + "puntiVendita.xml");
+                }
+
                 int fileLength = (int) file.length();
                 String content = getContentType(fileRequested);
 

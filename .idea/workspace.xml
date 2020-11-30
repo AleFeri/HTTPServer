@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80a6929d-c6ba-4bd4-b936-eefe9baceae1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/codemodel_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_xml_bind.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/puntiVendita.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PuntiVendita.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTTPServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HTTPServer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HTTPServer/JSONHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HTTPServer/JSONHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HTTPServer/JavaHTTPServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HTTPServer/JavaHTTPServer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HTTPServer/PuntoVendita.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HTTPServer/PuntoVendita.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HTTPServer/XMLHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HTTPServer/XMLHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HTTPServer/puntiVendita.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/puntiVendita.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/puntiVendita.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JSONHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSONHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaHTTPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaHTTPServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PuntoVendita.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PuntoVendita.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/XMLHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/XMLHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/puntiVendita.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/puntiVendita.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +53,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alessandro\IdeaProjects\HTTPServer\src\files" />
       <recent name="C:\Users\Alessandro\IdeaProjects\HTTPServer" />
     </key>
   </component>
@@ -78,8 +82,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.XMLHandler" />
-        <item itemvalue="Application.JSONHandler" />
         <item itemvalue="Application.JavaHTTPServer" />
+        <item itemvalue="Application.JSONHandler" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +110,10 @@
       <workItem from="1606641336489" duration="714000" />
       <workItem from="1606677662438" duration="1034000" />
       <workItem from="1606681312408" duration="1775000" />
-      <workItem from="1606683217783" duration="256000" />
+      <workItem from="1606683217783" duration="305000" />
+      <workItem from="1606728413918" duration="1767000" />
+      <workItem from="1606730224215" duration="1778000" />
+      <workItem from="1606732043395" duration="810000" />
     </task>
     <servers />
   </component>
@@ -118,10 +125,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606682144944" />
-    <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1606683394876">
+    <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1606729546171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606683394876" />
+    <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606729546171" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605696392284">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -130,22 +137,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606682140241" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1606682976610">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1606732755007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606682976610" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1606682976610">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606732755007" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1606732755007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606682976610" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1606682976610">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606732755007" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1606732755007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606682976610" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1606682976610">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606732755007" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1606732755007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606682976610" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606732755007" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1606583268056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -166,13 +173,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606636216038" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1606683219653">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1606732042743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606683219653" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606682940389">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606732042743" />
+    <state x="619" y="199" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606729677529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606682940389" />
+    <state x="619" y="199" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606729677529" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606729823153">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1600.174.1600.860@0.0.1920.1040" timestamp="1606729823153" />
   </component>
 </project>

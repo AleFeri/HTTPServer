@@ -1,30 +1,27 @@
 import com.fasterxml.jackson.databind.ObjectMapper;
-import java.nio.file.Paths;
-import java.util.Arrays;
-import java.util.List;
+import java.io.File;
 
 public class JSONHandler {
-    private static List<PuntoVendita> puntiVenditaArray;
+    private static PuntiVendita puntiVendita;
 
     //Getter
-    public static List<PuntoVendita> getPuntiVenditaArray() {
-        return puntiVenditaArray;
+    public static PuntiVendita getPuntiVendita() {
+        return puntiVendita;
     }
 
     //costruttore
     public JSONHandler() {
-        puntiVenditaArray = getPVList();
-        puntiVenditaArray.forEach(System.out::println);
+        puntiVendita = getPVList();
     }
 
     //metodi
-    private static List<PuntoVendita> getPVList() {
+    private static PuntiVendita getPVList() {
         try {
             // create object mapper instance
             ObjectMapper mapper = new ObjectMapper();
 
             // convert JSON string to Book object
-            return Arrays.asList(mapper.readValue(Paths.get("puntiVendita.json").toFile(), PuntoVendita[].class));
+            return mapper.readValue(new File(JavaHTTPServer.WEB_ROOT + "/puntiVendita.json"), PuntiVendita.class);
 
         } catch (Exception ex) {
             ex.printStackTrace();
@@ -35,5 +32,8 @@ public class JSONHandler {
 
     public static void main(String[] args) {
         JSONHandler jsonHandler = new JSONHandler();
+        for(Object p: JSONHandler.getPuntiVendita().getListaRisultati()) {
+            System.out.println(p);
+        }
     }
 }
