@@ -21,6 +21,10 @@ public class XMLHandler {
 
     public static void main(String[] args) {
         new JSONHandler();
-        XMLHandler xmlHandler = new XMLHandler();
+        for(Object p: JSONHandler.getPuntiVendita().getListaRisultati()) {
+            System.out.println(p);
+        }
+        System.out.println();
+        new XMLHandler();
     }
 }

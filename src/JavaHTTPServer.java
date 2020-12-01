@@ -254,5 +254,4 @@ public class JavaHTTPServer implements Runnable{
     private void sendPuntiVendita() {
 
     }
-
 }
